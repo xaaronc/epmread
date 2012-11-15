@@ -4,6 +4,10 @@ BIN=epmread
 
 default: $(BIN)
 
+install: $(BIN)
+	adb remount
+	adb push $(BIN) /system/bin/
+
 clean:
 	rm -f $(BIN)
 

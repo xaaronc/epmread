@@ -20,5 +20,5 @@ For example
 
     epmread --samples 100 0 4 10
 
-will read average 100 samples of channels 0, 4 and 10.
+will read and average 100 samples from channels 0, 4 and 10.
 
